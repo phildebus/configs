@@ -1,0 +1,9 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored
+zstyle ':completion:*' format 'Completing %d'
+zstyle :compinstall filename '/home/phil/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
